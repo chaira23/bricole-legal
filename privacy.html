@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bricole — Gizlilik Politikası</title>
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; max-width: 800px; margin: 0 auto; padding: 24px 16px; color: #1a1a1a; line-height: 1.7; }
+  h1 { font-size: 1.8rem; margin-bottom: 4px; }
+  h2 { font-size: 1.2rem; margin-top: 2rem; border-bottom: 1px solid #eee; padding-bottom: 4px; }
+  .meta { color: #666; font-size: 0.9rem; margin-bottom: 2rem; }
+  table { width: 100%; border-collapse: collapse; margin: 1rem 0; font-size: 0.9rem; }
+  th, td { border: 1px solid #ddd; padding: 8px 12px; text-align: left; }
+  th { background: #f5f5f5; }
+  a { color: #0066cc; }
+</style>
+</head>
+<body>
+
+<h1>Gizlilik Politikası</h1>
+<p class="meta">Uygulama: <strong>Bricole</strong> &nbsp;|&nbsp; Geliştirici: Kayra Tozan &nbsp;|&nbsp; Son güncelleme: Haziran 2026</p>
+
+<p>Bu gizlilik politikası, Bricole uygulamasının ("Uygulama") kişisel verileri nasıl topladığını, kullandığını ve koruduğunu açıklar. 6698 sayılı Kişisel Verilerin Korunması Kanunu (KVKK) ve AB Genel Veri Koruma Tüzüğü (GDPR) kapsamında veri sorumlusu Kayra Tozan'dır.</p>
+
+<h2>1. Toplanan Veriler</h2>
+<table>
+  <tr><th>Veri</th><th>Amaç</th><th>Zorunlu mu?</th></tr>
+  <tr><td>E-posta adresi</td><td>Hesap oluşturma ve kimlik doğrulama</td><td>Evet (hesap için)</td></tr>
+  <tr><td>Kullanıcı kimliği (UUID)</td><td>Verileri hesabınıza bağlama</td><td>Evet</td></tr>
+  <tr><td>Görünen ad</td><td>Profil görüntüleme</td><td>Hayır (isteğe bağlı)</td></tr>
+  <tr><td>Bilardo pozisyonları</td><td>Çözüm geçmişi ve paylaşım</td><td>Uygulamanın temel işlevi</td></tr>
+  <tr><td>Drill denemeleri</td><td>İlerleme takibi</td><td>Uygulamanın temel işlevi</td></tr>
+  <tr><td>Masa profilleri</td><td>Kalibrasyon ayarları</td><td>Hayır (isteğe bağlı)</td></tr>
+  <tr><td>Abonelik durumu</td><td>Pro özelliklere erişim</td><td>Evet (satın alma için)</td></tr>
+  <tr><td>Uygulama etkileşimleri</td><td>Analitik (yalnızca onay sonrası)</td><td>Hayır</td></tr>
+  <tr><td>Çökme raporları</td><td>Hata tespiti</td><td>Otomatik</td></tr>
+</table>
+
+<h2>2. Üçüncü Taraf Hizmetler</h2>
+<table>
+  <tr><th>Hizmet</th><th>Amaç</th><th>Konum</th><th>Gizlilik</th></tr>
+  <tr><td>Supabase</td><td>Veritabanı ve kimlik doğrulama</td><td>AB (Frankfurt, AWS)</td><td><a href="https://supabase.com/privacy">supabase.com/privacy</a></td></tr>
+  <tr><td>RevenueCat</td><td>Abonelik yönetimi</td><td>ABD</td><td><a href="https://www.revenuecat.com/privacy">revenuecat.com/privacy</a></td></tr>
+  <tr><td>PostHog</td><td>Ürün analizi (onay gerekir)</td><td>AB (Amsterdam)</td><td><a href="https://posthog.com/privacy">posthog.com/privacy</a></td></tr>
+  <tr><td>Sentry</td><td>Çökme raporlama</td><td>ABD</td><td><a href="https://sentry.io/privacy/">sentry.io/privacy</a></td></tr>
+  <tr><td>Apple / Google</td><td>Uygulama dağıtımı ve ödeme</td><td>ABD</td><td>Platform gizlilik politikaları</td></tr>
+</table>
+
+<h2>3. Yurt Dışına Veri Aktarımı</h2>
+<p>RevenueCat ve Sentry, verilerinizi ABD'de işlemektedir. Bu aktarımlar KVKK Madde 9/4 kapsamında imzalanmış Standart Sözleşme-2 (Veri Sorumlusundan Veri İşleyene) ile güvence altına alınmıştır. Supabase ve PostHog AB sunucularında çalışmaktadır.</p>
+
+<h2>4. Analitik ve Çerezler</h2>
+<p>PostHog analitik SDK'sı yalnızca açık onayınızın ardından aktif hale gelir. Uygulamayı ilk açtığınızda onay ekranı gösterilir. İstediğiniz zaman Ayarlar → Gizlilik bölümünden analitik iznini geri alabilirsiniz. Onay vermezseniz hiçbir analitik verisi toplanmaz.</p>
+
+<h2>5. Veri Saklama</h2>
+<ul>
+  <li>Hesap verileri: Hesabınızı silene kadar</li>
+  <li>Drill ve pozisyon geçmişi: Hesabınızı silene kadar</li>
+  <li>Satın alma kayıtları: Yasal yükümlülükler kapsamında (RevenueCat politikası)</li>
+  <li>Çökme raporları: 90 gün (Sentry varsayılanı)</li>
+</ul>
+
+<h2>6. Hesap Silme</h2>
+<p>Hesabınızı ve tüm verilerinizi kalıcı olarak silebilirsiniz. Bunun için:</p>
+<ul>
+  <li>Uygulama içi: Profil → Hesabımı Sil</li>
+  <li>E-posta: <a href="mailto:tozankayra4@gmail.com">tozankayra4@gmail.com</a></li>
+</ul>
+<p>Silme işlemi 30 gün içinde tamamlanır.</p>
+
+<h2>7. KVKK Kapsamındaki Haklarınız (Madde 11)</h2>
+<p>Türkiye'de ikamet eden kullanıcılar olarak aşağıdaki haklara sahipsiniz:</p>
+<ul>
+  <li>Kişisel verilerinizin işlenip işlenmediğini öğrenme</li>
+  <li>İşlenmişse buna ilişkin bilgi talep etme</li>
+  <li>Yanlış veya eksik verilerin düzeltilmesini isteme</li>
+  <li>Verilerin silinmesini veya yok edilmesini talep etme</li>
+  <li>Verilerin üçüncü kişilere bildirilmesini isteme</li>
+  <li>Otomatik sistemler aracılığıyla aleyhinize oluşan sonuca itiraz etme</li>
+  <li>Hukuka aykırı işleme nedeniyle zararın giderilmesini talep etme</li>
+</ul>
+<p>Bu haklarınızı kullanmak için <a href="mailto:tozankayra4@gmail.com">tozankayra4@gmail.com</a> adresine yazabilirsiniz. 30 gün içinde yanıt verilir.</p>
+
+<h2>8. GDPR Kapsamındaki Haklarınız</h2>
+<p>AB/AEA'da ikamet eden kullanıcılar için: erişim, düzeltme, silme, işlemeyi kısıtlama, itiraz etme ve veri taşınabilirliği haklarına sahipsiniz. Şikâyetlerinizi yerel veri koruma otoritenize iletebilirsiniz.</p>
+
+<h2>9. Çocukların Gizliliği</h2>
+<p>Bricole, 13 yaşın altındaki çocuklara yönelik değildir ve bu yaş grubundan bilerek kişisel veri toplamaz.</p>
+
+<h2>10. Politika Değişiklikleri</h2>
+<p>Bu politikada yapılacak önemli değişiklikler, uygulama içi bildirim veya e-posta ile duyurulacaktır.</p>
+
+<h2>11. İletişim</h2>
+<p>
+  Veri Sorumlusu: Kayra Tozan<br>
+  E-posta: <a href="mailto:tozankayra4@gmail.com">tozankayra4@gmail.com</a>
+</p>
+
+</body>
+</html>
